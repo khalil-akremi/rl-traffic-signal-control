@@ -1,0 +1,26 @@
+environment:
+  net_file: "network/grid.net.xml"
+  route_file: "network/grid.rou.xml"
+  use_gui: false
+  num_seconds: 3600
+  delta_time: 5
+  yellow_time: 2
+  min_green: 5
+
+training:
+  episodes: 500
+  seed: 42
+
+model:
+  gat_hidden_dim: 64
+  gat_heads: 4
+  gat_layers: 2
+  embedding_dim: 128
+
+mappo:
+  lr_actor: 3e-4
+  lr_critic: 3e-4
+  gamma: 0.99
+  clip_epsilon: 0.2
+  update_epochs: 10
+  batch_size: 64
