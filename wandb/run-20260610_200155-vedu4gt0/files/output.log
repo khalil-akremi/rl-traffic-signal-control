@@ -1,0 +1,74 @@
+
+==================================================
+Starting training
+Episodes: 41 → 500
+Agents: 12
+Obs size: 11
+Encoder params: 30,528
+Actor params:   12,546
+Critic params:  459,521
+==================================================
+
+  → New best model saved! Avg reward: -692.67
+  → New best model saved! Avg reward: -678.39
+  → New best model saved! Avg reward: -674.77
+  → New best model saved! Avg reward: -658.17
+  → New best model saved! Avg reward: -652.75
+Ep   50 | Reward:   -672.25 | Avg(50):   -661.98 | Steps:  720 | Loss A: -0.0002 | Loss C: 199.2199 | GPU: 26MB
+  → New best model saved! Avg reward: -646.57
+  → New best model saved! Avg reward: -643.60
+  → New best model saved! Avg reward: -633.26
+  → New best model saved! Avg reward: -627.48
+  → New best model saved! Avg reward: -622.05
+  → New best model saved! Avg reward: -614.89
+  → New best model saved! Avg reward: -607.48
+  → New best model saved! Avg reward: -600.04
+Ep   60 | Reward: -10320.08 | Avg(50):  -1086.04 | Steps:  720 | Loss A: -0.0003 | Loss C: 489546.8156 | GPU: 26MB
+Ep   70 | Reward:   -450.92 | Avg(50):   -885.47 | Steps:  720 | Loss A: -0.0007 | Loss C: 460.5512 | GPU: 26MB
+Ep   80 | Reward:   -298.58 | Avg(50):   -765.70 | Steps:  720 | Loss A: -0.0000 | Loss C: 223.9898 | GPU: 26MB
+Ep   90 | Reward:   -294.67 | Avg(50):   -672.06 | Steps:  720 | Loss A:  0.0000 | Loss C: 177.3667 | GPU: 26MB
+Ep  100 | Reward:   -314.83 | Avg(50):   -599.33 | Steps:  720 | Loss A: -0.0006 | Loss C: 152.7058 | GPU: 26MB
+  → New best model saved! Avg reward: -599.33
+  → New best model saved! Avg reward: -595.43
+  → New best model saved! Avg reward: -590.81
+  → New best model saved! Avg reward: -584.70
+  → New best model saved! Avg reward: -580.58
+  → New best model saved! Avg reward: -575.30
+  → New best model saved! Avg reward: -570.42
+  → New best model saved! Avg reward: -566.59
+  → New best model saved! Avg reward: -563.09
+  → New best model saved! Avg reward: -559.21
+Ep  110 | Reward:   -321.92 | Avg(50):   -359.24 | Steps:  720 | Loss A: -0.0000 | Loss C: 182.2381 | GPU: 26MB
+  → New best model saved! Avg reward: -359.24
+  → New best model saved! Avg reward: -354.85
+  → New best model saved! Avg reward: -350.83
+  → New best model saved! Avg reward: -346.75
+  → New best model saved! Avg reward: -342.99
+  → New best model saved! Avg reward: -338.95
+  → New best model saved! Avg reward: -334.91
+  → New best model saved! Avg reward: -331.88
+  → New best model saved! Avg reward: -328.86
+  → New best model saved! Avg reward: -326.76
+Ep  120 | Reward:   -353.25 | Avg(50):   -324.81 | Steps:  720 | Loss A: -0.0018 | Loss C: 186.4400 | GPU: 26MB
+  → New best model saved! Avg reward: -324.81
+Ep  130 | Reward:   -294.25 | Avg(50):   -506.72 | Steps:  720 | Loss A: -0.0003 | Loss C: 186.9268 | GPU: 26MB
+Ep  140 | Reward:   -288.25 | Avg(50):   -542.36 | Steps:  720 | Loss A:  0.0000 | Loss C: 171.2261 | GPU: 26MB
+Ep  150 | Reward:   -278.17 | Avg(50):   -604.36 | Steps:  720 | Loss A: -0.0001 | Loss C: 184.5111 | GPU: 26MB
+Ep  160 | Reward:   -281.58 | Avg(50):   -601.51 | Steps:  720 | Loss A:  0.0000 | Loss C: 163.4215 | GPU: 26MB
+Ep  170 | Reward:   -290.17 | Avg(50):   -597.52 | Steps:  720 | Loss A: -0.0000 | Loss C: 159.2460 | GPU: 26MB
+Ep  180 | Reward:   -278.92 | Avg(50):   -395.75 | Steps:  720 | Loss A: -0.0001 | Loss C: 197.9296 | GPU: 26MB
+Ep  190 | Reward:   -298.67 | Avg(50):   -358.68 | Steps:  720 | Loss A: -0.0007 | Loss C: 113.5428 | GPU: 26MB
+  → New best model saved! Avg reward: -295.91
+  → New best model saved! Avg reward: -295.87
+  → New best model saved! Avg reward: -295.79
+  → New best model saved! Avg reward: -295.47
+  → New best model saved! Avg reward: -295.19
+Ep  200 | Reward:   -310.08 | Avg(50):   -295.86 | Steps:  720 | Loss A: -0.0000 | Loss C: 166.8566 | GPU: 26MB
+Ep  210 | Reward:   -292.08 | Avg(50):   -770.46 | Steps:  720 | Loss A:  0.0000 | Loss C: 191.6352 | GPU: 26MB
+Ep  220 | Reward:   -327.50 | Avg(50):   -780.34 | Steps:  720 | Loss A: -0.0004 | Loss C: 213.2951 | GPU: 26MB
+Ep  230 | Reward:   -404.67 | Avg(50):   -802.18 | Steps:  720 | Loss A: -0.0007 | Loss C: 347.4132 | GPU: 26MB
+Ep  240 | Reward:   -386.08 | Avg(50):   -824.06 | Steps:  720 | Loss A: -0.0014 | Loss C: 318.7788 | GPU: 26MB
+Ep  250 | Reward:   -345.33 | Avg(50):   -838.78 | Steps:  720 | Loss A: -0.0009 | Loss C: 278.2506 | GPU: 26MB
+Ep  260 | Reward:   -310.92 | Avg(50):   -520.63 | Steps:  720 | Loss A:  0.0000 | Loss C: 184.2449 | GPU: 26MB
+Ep  270 | Reward:   -332.17 | Avg(50):   -511.37 | Steps:  720 | Loss A: -0.0005 | Loss C: 193.7123 | GPU: 26MB
+Ep  280 | Reward:   -315.92 | Avg(50):   -487.63 | Steps:  720 | Loss A:  0.0000 | Loss C: 187.5196 | GPU: 26MB

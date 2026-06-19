@@ -1,0 +1,82 @@
+_wandb:
+    value:
+        cli_version: 0.27.2
+        e:
+            2avgxf0upm4ruskjizwurb3vkszg4vc0:
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.7"
+                disk:
+                    /:
+                        total: "482685030400"
+                        used: "419214254080"
+                email: khalilakremi0@gmail.com
+                executable: C:\Users\user\anaconda3\envs\traffic_marl\python.exe
+                git:
+                    commit: 53bac268155dba3efdede218788859d4a1ff56a1
+                    remote: https://github.com/khalil-akremi/rl-traffic-signal-control.git
+                gpu: NVIDIA GeForce RTX 4060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 3072
+                      memoryTotal: "8585740288"
+                      name: NVIDIA GeForce RTX 4060 Laptop GPU
+                      uuid: GPU-26fabaff-a8e8-7c92-f2b2-8661b0164cfb
+                host: LAPTOP-JR3NLK8H
+                memory:
+                    total: "33549283328"
+                os: Windows-10-10.0.26200-SP0
+                program: -m training.train
+                python: CPython 3.10.20
+                root: C:\Users\user\traffic_marl
+                startedAt: "2026-06-10T14:59:31.324788Z"
+                writerId: 2avgxf0upm4ruskjizwurb3vkszg4vc0
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+                - 77
+            "2":
+                - 1
+                - 77
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.10.20
+            "5": 0.27.2
+            "8":
+                - 3
+            "12": 0.27.2
+            "13": windows-amd64
+environment:
+    value:
+        delta_time: 10
+        min_green: 5
+        net_file: network/grid.net.xml
+        num_seconds: 1800
+        route_file: network/grid.rou.xml
+        use_gui: false
+        yellow_time: 2
+mappo:
+    value:
+        batch_size: 64
+        clip_epsilon: 0.2
+        entropy_coef: 0.01
+        gamma: 0.99
+        lr_actor: 0.0003
+        lr_critic: 0.0003
+        update_epochs: 10
+        value_coef: 0.5
+model:
+    value:
+        embedding_dim: 128
+        gat_heads: 4
+        gat_hidden_dim: 64
+        gat_layers: 2
+training:
+    value:
+        episodes: 50
+        seed: 42

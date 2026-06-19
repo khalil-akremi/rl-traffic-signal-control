@@ -1,26 +1,31 @@
 environment:
-  net_file: "network/grid.net.xml"
-  route_file: "network/grid.rou.xml"
-  use_gui: false
-  num_seconds: 3600
   delta_time: 5
-  yellow_time: 2
   min_green: 5
-
+  net_file: network/grid.net.xml
+  num_seconds: 3600
+  route_file: network/grid.rou.xml
+  use_gui: false
+  yellow_time: 2
+mappo:
+  batch_size: 64
+  clip_epsilon: 0.17705992987476787
+  entropy_coef_start: 0.1
+  entropy_coef_end: 0.02
+  entropy_anneal_episodes: 450
+  gamma: 0.99
+  lr_actor: 0.00025493856038648864
+  lr_critic: 0.00003
+  update_epochs: 3
+  value_coef: 0.5
+model:
+  embedding_dim: 128
+  gat_heads: 8
+  gat_hidden_dim: 64
+  gat_layers: 2
+  id_embed_dim: 8      # new
+  num_agents: 12 
+  model_type: mlp
 training:
   episodes: 500
   seed: 42
-
-model:
-  gat_hidden_dim: 64
-  gat_heads: 4
-  gat_layers: 2
-  embedding_dim: 128
-
-mappo:
-  lr_actor: 3e-4
-  lr_critic: 3e-4
-  gamma: 0.99
-  clip_epsilon: 0.2
-  update_epochs: 10
-  batch_size: 64
+  update_freq: 512

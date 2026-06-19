@@ -1,0 +1,13 @@
+
+==================================================
+Starting training
+Episodes: 0 → 30
+Agents: 12
+Update frequency: 256 steps
+==================================================
+
+Ep    0 | Reward:   -745.92 | Avg(50):   -745.92 | Loss A:  0.0000 | Loss C: 313.6262 | Entropy: 0.6931 | GPU: 24MB
+Ep   10 | Reward:   -651.25 | Avg(50):   -705.99 | Loss A:  0.0000 | Loss C: 121.2241 | Entropy: 0.6931 | GPU: 24MB
+Ep   20 | Reward:   -689.75 | Avg(50):   -706.72 | Loss A: -0.0000 | Loss C: 212.1638 | Entropy: 0.6931 | GPU: 24MB
+
+Training complete! Best avg reward: -702.58

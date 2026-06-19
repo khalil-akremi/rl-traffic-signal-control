@@ -24,34 +24,57 @@ class TrafficEnvironment(ParallelEnv):
             delta_time=config.get('delta_time', 5),
             yellow_time=config.get('yellow_time', 2),
             min_green=config.get('min_green', 5),
+            reward_fn=self._compute_reward,
         )
 
         self.possible_agents = self._sumo_env.possible_agents
         self.agents = self.possible_agents[:]
 
-        # find the maximum observation size across all agents
-        # this is key — we pad everyone to the same size
         self.obs_size = max(
             self._sumo_env.observation_space(agent).shape[0]
             for agent in self.possible_agents
         )
         self._num_agents = len(self.possible_agents)
 
+        self.training_mode = True
+
         print(f"Environment initialized with {self._num_agents} agents")
         print(f"Agents: {self.agents}")
         print(f"Unified observation size: {self.obs_size}")
         print(f"Action space sample: {self._sumo_env.action_space(self.agents[0])}")
 
-    def _pad_observation(self, obs, agent):
+    def _compute_reward(self, traffic_signal):
+        """
+        Pressure-based reward.
+        Counts halting vehicles on all incoming lanes.
+        More sensitive than raw waiting time — stronger learning signal.
+        Negative because we want to minimize pressure.
+        """
+        total_pressure = 0
+        for lane in traffic_signal.lanes:
+            halting = traffic_signal.sumo.lane.getLastStepHaltingNumber(lane)
+            total_pressure += halting
+        return -total_pressure / 10.0
+
+    def _pad_observation(self, obs, agent, training=True):
         """
         Pad observation to unified size with zeros.
-        This ensures all agents have the same input dimension
-        which is required by our GNN.
+        Optionally add small noise during training to prevent
+        the policy from locking onto deterministic feature shortcuts.
         """
         current_size = obs.shape[0]
         if current_size < self.obs_size:
             padding = np.zeros(self.obs_size - current_size, dtype=np.float32)
             obs = np.concatenate([obs, padding])
+
+        if training and self.config.get('obs_noise', 0.0) > 0:
+            noise = np.random.normal(
+                0,
+                self.config['obs_noise'],
+                size=obs.shape
+            ).astype(np.float32)
+            obs = np.clip(obs + noise, 0.0, 1.0)
+
         return obs
 
     def observation_space(self, agent):
@@ -69,53 +92,75 @@ class TrafficEnvironment(ParallelEnv):
         observations, infos = self._sumo_env.reset(seed=seed, options=options)
         self.agents = self.possible_agents[:]
 
-        # pad all observations
-        observations = {
-            agent: self._pad_observation(obs, agent)
-            for agent, obs in observations.items()
-        }
+        # stagger phases to break symmetry
+        inner = None
+        try:
+            inner = self._sumo_env.aec_env.env.env.env
+
+            for i, agent in enumerate(self.possible_agents):
+                ts = inner.traffic_signals[agent]
+                target_phase = i % ts.num_green_phases
+
+                ts.green_phase = target_phase
+                ts.time_since_last_phase_change = 0
+                ts.sumo.trafficlight.setRedYellowGreenState(
+                    agent, ts.all_phases[target_phase].state
+                )
+
+            print(f"Phase staggering successful for {len(self.possible_agents)} agents")
+        except Exception as e:
+            print(f"WARNING: Phase staggering failed: {e}")
+
+        # re-fetch observations AFTER staggering, since obs depend on green_phase
+        if inner is not None:
+            observations = {
+                agent: self._pad_observation(
+                    inner.traffic_signals[agent].compute_observation(), agent,
+                    training=self.training_mode
+                )
+                for agent in self.possible_agents
+            }
+        else:
+            observations = {
+                agent: self._pad_observation(obs, agent, training=self.training_mode)
+                for agent, obs in observations.items()
+            }
+
         return observations, infos
 
     def step(self, actions):
         observations, rewards, terminations, truncations, infos = \
             self._sumo_env.step(actions)
-
-        # pad all observations
         observations = {
-            agent: self._pad_observation(obs, agent)
+            agent: self._pad_observation(obs, agent, training=self.training_mode)
             for agent, obs in observations.items()
         }
-
         return observations, rewards, terminations, truncations, infos
 
     def close(self):
         self._sumo_env.close()
 
+    def set_train_mode(self):
+        self.training_mode = True
+
+    def set_eval_mode(self):
+        self.training_mode = False
+
     def get_graph_structure(self):
         """
         Build the graph structure of the road network.
         Returns edge_index in COO format for PyTorch Geometric.
-        
-        This is the adjacency information our GNN will use.
         Each intersection is a node, each road connection is an edge.
         """
-        # map agent IDs to integer indices
         agent_to_idx = {agent: i for i, agent in enumerate(self.possible_agents)}
 
-        # define neighborhood connections based on grid structure
-        # agents that are physically adjacent share an edge in our graph
         edges_src = []
         edges_dst = []
 
         agents = self.possible_agents
-
         for i, agent_i in enumerate(agents):
             for j, agent_j in enumerate(agents):
                 if i != j:
-                    # two intersections are neighbors if they share a direct road
-                    # we determine this by checking SUMO's road network
-                    # for now we connect agents that are adjacent in the grid
-                    # we'll refine this using TraCI later
                     if self._are_neighbors(agent_i, agent_j):
                         edges_src.append(i)
                         edges_dst.append(j)
@@ -124,11 +169,10 @@ class TrafficEnvironment(ParallelEnv):
 
     def _are_neighbors(self, agent_i, agent_j):
         """
-        Two intersections are neighbors if they are directly connected by a road.
-        We use naming convention from SUMO grid: A0, A1, B0, B1 etc.
-        Adjacent means same row +-1 col, or same col +-1 row.
+        Two intersections are neighbors if directly connected by a road.
+        Uses naming convention: A1, B2, C3 etc.
+        Adjacent = same row +-1 col, or same col +-1 row.
         """
-        # extract row and column from agent names like 'A1', 'B2'
         try:
             row_i, col_i = agent_i[0], int(agent_i[1:])
             row_j, col_j = agent_j[0], int(agent_j[1:])

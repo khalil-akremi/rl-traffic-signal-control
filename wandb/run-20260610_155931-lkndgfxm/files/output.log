@@ -1,0 +1,23 @@
+
+==================================================
+Starting training
+Episodes: 0 → 50
+Agents: 12
+Obs size: 11
+Encoder params: 30,528
+Actor params: 12,546
+Critic params: 459,521
+==================================================
+C:\Users\user\traffic_marl\training\train.py:157: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+
+Ep    0 | Reward:     -0.26 | Avg(50):     -0.26 | Steps:  180 | Loss A: -0.0000 | Loss C: 0.1005 | GPU: 24MB
+Ep   10 | Reward:     -0.79 | Avg(50):     -4.34 | Steps:  180 | Loss A: -0.0001 | Loss C: 0.2509 | GPU: 24MB
+Ep   20 | Reward:     -0.45 | Avg(50):     -2.54 | Steps:  180 | Loss A: -0.0000 | Loss C: 0.0800 | GPU: 24MB
+Ep   30 | Reward:     -0.66 | Avg(50):     -6.50 | Steps:  180 | Loss A: -0.0002 | Loss C: 0.0700 | GPU: 24MB
+Ep   40 | Reward:     -0.14 | Avg(50):     -5.50 | Steps:  180 | Loss A: -0.0032 | Loss C: 0.0800 | GPU: 24MB
+
+==================================================
+Training complete!
+Best average reward: -inf
+==================================================

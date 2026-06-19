@@ -1,0 +1,628 @@
+
+==================================================
+Starting training
+Episodes: 0 → 500
+Agents: 12
+Update frequency: 512 steps
+Encoder params: 31,136
+Actor params:   12,546
+Critic params:  459,521
+==================================================
+
+Phase staggering successful for 12 agents
+Ep    0 | Reward:   -117.50 | Avg(50):   -117.50 | Loss A: -0.0002 | Loss C:  1.0166 | Entropy: 0.6930 | Entropy Coef: 0.1000 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep   10 | Reward:  -3381.12 | Avg(50):   -715.92 | Loss A: -0.0000 | Loss C:  1.1433 | Entropy: 0.6907 | Entropy Coef: 0.0982 | GPU: 24MB
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -666.12
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -623.74
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -588.18
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -557.00
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -528.52
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -503.83
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -482.55
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -463.48
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -446.38
+Phase staggering successful for 12 agents
+Ep   20 | Reward:   -111.94 | Avg(50):   -430.45 | Loss A: -0.0000 | Loss C:  1.0166 | Entropy: 0.6844 | Entropy Coef: 0.0964 | GPU: 24MB
+  → New best model saved! Avg reward: -430.45
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -415.90
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -402.81
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -390.84
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -380.33
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -370.10
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -360.23
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -351.06
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -342.96
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -341.34
+Phase staggering successful for 12 agents
+Ep   30 | Reward:   -107.65 | Avg(50):   -333.80 | Loss A: -0.0002 | Loss C:  0.9847 | Entropy: 0.6674 | Entropy Coef: 0.0947 | GPU: 24MB
+  → New best model saved! Avg reward: -333.80
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -327.16
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -322.74
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -316.78
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -311.24
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -308.13
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -302.69
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -297.87
+Phase staggering successful for 12 agents
+Ep   40 | Reward:   -111.57 | Avg(50):   -293.33 | Loss A: -0.0000 | Loss C:  0.9852 | Entropy: 0.6628 | Entropy Coef: 0.0929 | GPU: 24MB
+  → New best model saved! Avg reward: -293.33
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -288.57
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -284.27
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -280.03
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -276.16
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -272.47
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -268.76
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -265.29
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -262.17
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -258.76
+Phase staggering successful for 12 agents
+Ep   50 | Reward:   -103.87 | Avg(50):   -258.49 | Loss A: -0.0005 | Loss C:  1.0142 | Entropy: 0.6361 | Entropy Coef: 0.0911 | GPU: 24MB
+  → New best model saved! Avg reward: -258.49
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -229.54
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -229.11
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -228.55
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -228.44
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -227.99
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -227.49
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -193.86
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -193.55
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -193.11
+Phase staggering successful for 12 agents
+Ep   60 | Reward:   -101.43 | Avg(50):   -127.52 | Loss A: -0.0000 | Loss C:  0.9934 | Entropy: 0.6394 | Entropy Coef: 0.0893 | GPU: 24MB
+  → New best model saved! Avg reward: -127.52
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep   70 | Reward:   -101.62 | Avg(50):   -161.04 | Loss A: -0.0001 | Loss C:  1.0462 | Entropy: 0.6572 | Entropy Coef: 0.0876 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep   80 | Reward:   -104.77 | Avg(50):   -163.25 | Loss A:  0.0001 | Loss C:  0.9902 | Entropy: 0.6449 | Entropy Coef: 0.0858 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep   90 | Reward:  -3744.85 | Avg(50):   -276.12 | Loss A: -0.0002 | Loss C:  6.2082 | Entropy: 0.6673 | Entropy Coef: 0.0840 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  100 | Reward:    -96.54 | Avg(50):   -277.00 | Loss A: -0.0003 | Loss C:  0.9785 | Entropy: 0.6354 | Entropy Coef: 0.0822 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  110 | Reward:    -92.11 | Avg(50):   -272.14 | Loss A: -0.0004 | Loss C:  0.9709 | Entropy: 0.6229 | Entropy Coef: 0.0804 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  120 | Reward:    -96.60 | Avg(50):   -288.03 | Loss A:  0.0001 | Loss C:  0.9424 | Entropy: 0.6303 | Entropy Coef: 0.0787 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  130 | Reward:    -96.31 | Avg(50):   -312.46 | Loss A: -0.0004 | Loss C:  0.8945 | Entropy: 0.6290 | Entropy Coef: 0.0769 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  140 | Reward:    -88.73 | Avg(50):   -184.59 | Loss A: -0.0002 | Loss C:  0.9964 | Entropy: 0.5942 | Entropy Coef: 0.0751 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  150 | Reward:    -90.92 | Avg(50):   -201.55 | Loss A: -0.0000 | Loss C:  0.9997 | Entropy: 0.6040 | Entropy Coef: 0.0733 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  160 | Reward:    -89.72 | Avg(50):   -200.70 | Loss A: -0.0001 | Loss C:  0.9243 | Entropy: 0.6053 | Entropy Coef: 0.0716 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  170 | Reward:    -90.87 | Avg(50):   -146.44 | Loss A: -0.0002 | Loss C:  1.0141 | Entropy: 0.5585 | Entropy Coef: 0.0698 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -111.45
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -111.29
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -111.12
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -111.07
+Phase staggering successful for 12 agents
+Ep  180 | Reward:    -83.03 | Avg(50):   -110.80 | Loss A: -0.0006 | Loss C:  0.9377 | Entropy: 0.5776 | Entropy Coef: 0.0680 | GPU: 24MB
+  → New best model saved! Avg reward: -110.80
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -110.63
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -110.51
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -110.42
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -110.30
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -110.13
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  190 | Reward:    -87.58 | Avg(50):   -110.33 | Loss A:  0.0000 | Loss C:  1.0500 | Entropy: 0.5936 | Entropy Coef: 0.0662 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -110.06
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -109.85
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -109.76
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  200 | Reward:    -89.74 | Avg(50):   -151.26 | Loss A: -0.0006 | Loss C:  1.0232 | Entropy: 0.5860 | Entropy Coef: 0.0644 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  210 | Reward:    -83.49 | Avg(50):   -206.07 | Loss A:  0.0000 | Loss C:  1.0107 | Entropy: 0.6050 | Entropy Coef: 0.0627 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  220 | Reward:    -97.23 | Avg(50):   -252.14 | Loss A: -0.0002 | Loss C:  0.9973 | Entropy: 0.5871 | Entropy Coef: 0.0609 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  230 | Reward:    -95.21 | Avg(50):   -253.17 | Loss A: -0.0002 | Loss C:  1.0514 | Entropy: 0.5741 | Entropy Coef: 0.0591 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  240 | Reward:    -89.66 | Avg(50):   -252.40 | Loss A:  0.0001 | Loss C:  1.0682 | Entropy: 0.5507 | Entropy Coef: 0.0573 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  250 | Reward:    -82.65 | Avg(50):   -191.59 | Loss A: -0.0005 | Loss C:  0.8518 | Entropy: 0.5593 | Entropy Coef: 0.0556 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  260 | Reward:  -1731.02 | Avg(50):   -173.22 | Loss A: -0.0001 | Loss C:  6.7516 | Entropy: 0.6182 | Entropy Coef: 0.0538 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  270 | Reward:    -85.10 | Avg(50):   -165.23 | Loss A: -0.0003 | Loss C:  0.9350 | Entropy: 0.5746 | Entropy Coef: 0.0520 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  280 | Reward:    -85.27 | Avg(50):   -164.20 | Loss A: -0.0004 | Loss C:  1.0575 | Entropy: 0.5424 | Entropy Coef: 0.0502 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  290 | Reward:    -83.93 | Avg(50):   -175.07 | Loss A: -0.0001 | Loss C:  0.9153 | Entropy: 0.5410 | Entropy Coef: 0.0484 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  300 | Reward:    -91.02 | Avg(50):   -173.75 | Loss A: -0.0006 | Loss C:  0.9987 | Entropy: 0.5422 | Entropy Coef: 0.0467 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  310 | Reward:    -83.37 | Avg(50):   -135.93 | Loss A: -0.0002 | Loss C:  1.1063 | Entropy: 0.5347 | Entropy Coef: 0.0449 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -96.80
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -96.66
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -96.47
+Phase staggering successful for 12 agents
+  → New best model saved! Avg reward: -96.35
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  320 | Reward:  -1133.79 | Avg(50):   -125.70 | Loss A: -0.0001 | Loss C:  6.5834 | Entropy: 0.5922 | Entropy Coef: 0.0431 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  330 | Reward:    -84.82 | Avg(50):   -220.23 | Loss A: -0.0001 | Loss C:  0.9671 | Entropy: 0.5175 | Entropy Coef: 0.0413 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  340 | Reward:  -1121.44 | Avg(50):   -285.16 | Loss A: -0.0003 | Loss C:  2.8435 | Entropy: 0.5520 | Entropy Coef: 0.0396 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  350 | Reward:    -85.19 | Avg(50):   -301.89 | Loss A: -0.0002 | Loss C:  0.9775 | Entropy: 0.5185 | Entropy Coef: 0.0378 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  360 | Reward:    -81.78 | Avg(50):   -300.98 | Loss A: -0.0005 | Loss C:  0.8948 | Entropy: 0.4728 | Entropy Coef: 0.0360 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  370 | Reward:    -77.83 | Avg(50):   -270.71 | Loss A: -0.0011 | Loss C:  0.8763 | Entropy: 0.4248 | Entropy Coef: 0.0342 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  380 | Reward:    -75.06 | Avg(50):   -174.68 | Loss A:  0.0001 | Loss C:  0.8759 | Entropy: 0.4230 | Entropy Coef: 0.0324 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  390 | Reward:  -1068.16 | Avg(50):   -138.96 | Loss A: -0.0003 | Loss C:  2.8080 | Entropy: 0.5099 | Entropy Coef: 0.0307 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  400 | Reward:    -73.79 | Avg(50):   -195.91 | Loss A: -0.0002 | Loss C:  1.2555 | Entropy: 0.4005 | Entropy Coef: 0.0289 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  410 | Reward:    -76.92 | Avg(50):   -234.72 | Loss A: -0.0001 | Loss C:  0.8872 | Entropy: 0.3949 | Entropy Coef: 0.0271 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  420 | Reward:    -77.69 | Avg(50):   -253.73 | Loss A: -0.0000 | Loss C:  1.3703 | Entropy: 0.4113 | Entropy Coef: 0.0253 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  430 | Reward:    -78.41 | Avg(50):   -292.03 | Loss A: -0.0006 | Loss C:  1.1999 | Entropy: 0.4027 | Entropy Coef: 0.0236 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  440 | Reward:    -79.43 | Avg(50):   -285.49 | Loss A: -0.0008 | Loss C:  0.9100 | Entropy: 0.4057 | Entropy Coef: 0.0218 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  450 | Reward:    -77.74 | Avg(50):   -278.51 | Loss A:  0.0001 | Loss C:  0.9066 | Entropy: 0.3758 | Entropy Coef: 0.0200 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  460 | Reward:    -74.22 | Avg(50):   -242.82 | Loss A: -0.0008 | Loss C:  0.8709 | Entropy: 0.3352 | Entropy Coef: 0.0200 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  470 | Reward:    -74.52 | Avg(50):   -228.76 | Loss A: -0.0004 | Loss C:  0.9236 | Entropy: 0.3358 | Entropy Coef: 0.0200 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  480 | Reward:    -69.39 | Avg(50):   -228.33 | Loss A: -0.0004 | Loss C:  1.5130 | Entropy: 0.3435 | Entropy Coef: 0.0200 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Ep  490 | Reward:    -79.32 | Avg(50):   -193.50 | Loss A: -0.0000 | Loss C:  0.9306 | Entropy: 0.3677 | Entropy Coef: 0.0200 | GPU: 24MB
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+Phase staggering successful for 12 agents
+
+Training complete! Best avg reward: -96.35

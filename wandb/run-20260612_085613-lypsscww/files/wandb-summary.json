@@ -1,0 +1,1 @@
+{"_timestamp":1.7812541861044378e+09,"_wandb":{"runtime":3211},"episode_reward":-707.4999999999994,"_runtime":3211,"gpu_memory_mb":24.396484375,"entropy":0.6931466857592264,"critic_loss":176.11525217692056,"actor_loss":-1.0252827072084377e-05,"avg_reward_50ep":-790.6416666666665,"best_reward":-705.7023809523811,"episode":29,"episode_steps":720,"_step":29}

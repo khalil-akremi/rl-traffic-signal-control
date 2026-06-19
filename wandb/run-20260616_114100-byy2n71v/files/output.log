@@ -1,0 +1,194 @@
+
+==================================================
+Starting training
+Episodes: 0 → 500
+Agents: 12
+Update frequency: 512 steps
+Encoder params: 31,136
+Actor params:   12,546
+Critic params:  459,521
+==================================================
+
+WARNING: Could not access sumo connection for phase staggering
+Ep    0 | Reward:   -649.49 | Avg(50):   -649.49 | Loss A: -0.0000 | Loss C: 2196.0050 | Entropy: 0.6930 | Entropy Coef: 0.1000 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   10 | Reward:   -118.54 | Avg(50):   -228.47 | Loss A: -0.0000 | Loss C:  3.7141 | Entropy: 0.6914 | Entropy Coef: 0.0978 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -219.35
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -211.32
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -204.96
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   20 | Reward:   -121.07 | Avg(50):   -241.35 | Loss A: -0.0002 | Loss C:  5.0439 | Entropy: 0.6885 | Entropy Coef: 0.0955 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   30 | Reward:   -119.11 | Avg(50):   -207.07 | Loss A: -0.0003 | Loss C:  5.6187 | Entropy: 0.6737 | Entropy Coef: 0.0932 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   40 | Reward:   -101.11 | Avg(50):   -243.75 | Loss A: -0.0000 | Loss C:  6.0876 | Entropy: 0.6688 | Entropy Coef: 0.0910 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   50 | Reward:   -108.12 | Avg(50):   -209.71 | Loss A: -0.0003 | Loss C:  5.8224 | Entropy: 0.6460 | Entropy Coef: 0.0888 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -198.29
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -197.97
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -197.50
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -197.19
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -196.80
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -196.54
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   60 | Reward:   -113.14 | Avg(50):   -204.90 | Loss A: -0.0001 | Loss C:  6.2860 | Entropy: 0.6648 | Entropy Coef: 0.0865 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   70 | Reward:   -114.47 | Avg(50):   -228.46 | Loss A:  0.0001 | Loss C:  6.9205 | Entropy: 0.6597 | Entropy Coef: 0.0843 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   80 | Reward:   -102.77 | Avg(50):   -317.66 | Loss A: -0.0001 | Loss C:  7.3243 | Entropy: 0.6614 | Entropy Coef: 0.0820 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\user\traffic_marl\training\train.py", line 341, in <module>
+    main()
+  File "C:\Users\user\traffic_marl\training\train.py", line 337, in main
+    train(config_path=args.config)
+  File "C:\Users\user\traffic_marl\training\train.py", line 169, in train
+    env.step(actions_dict)
+  File "C:\Users\user\traffic_marl\environment\traffic_env.py", line 132, in step
+    self._sumo_env.step(actions)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\conversions.py", line 191, in step
+    self.aec_env.step(actions[agent])
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\order_enforcing.py", line 81, in step
+    super().step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\base.py", line 116, in step
+    self.env.step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\assert_out_of_bounds.py", line 29, in step
+    super().step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\base.py", line 116, in step
+    self.env.step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 589, in step
+    self.compute_info()
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 541, in compute_info
+    infos = self.env._compute_info()
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 359, in _compute_info
+    info.update(self._get_system_info())
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 407, in _get_system_info
+    waiting_times = [self.sumo.vehicle.getWaitingTime(vehicle) for vehicle in vehicles]
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 407, in <listcomp>
+    waiting_times = [self.sumo.vehicle.getWaitingTime(vehicle) for vehicle in vehicles]
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\_vehicle.py", line 543, in getWaitingTime
+    return self._getUniversal(tc.VAR_WAITING_TIME, vehID)
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\domain.py", line 152, in _getUniversal
+    return _parse(self._retValFunc, varID, self._getCmd(varID, objectID, format, *values))
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\domain.py", line 154, in _getCmd
+    def _getCmd(self, varID, objID, format="", *values):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\user\traffic_marl\training\train.py", line 341, in <module>
+    main()
+  File "C:\Users\user\traffic_marl\training\train.py", line 337, in main
+    train(config_path=args.config)
+  File "C:\Users\user\traffic_marl\training\train.py", line 169, in train
+    env.step(actions_dict)
+  File "C:\Users\user\traffic_marl\environment\traffic_env.py", line 132, in step
+    self._sumo_env.step(actions)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\conversions.py", line 191, in step
+    self.aec_env.step(actions[agent])
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\order_enforcing.py", line 81, in step
+    super().step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\base.py", line 116, in step
+    self.env.step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\assert_out_of_bounds.py", line 29, in step
+    super().step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\base.py", line 116, in step
+    self.env.step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 589, in step
+    self.compute_info()
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 541, in compute_info
+    infos = self.env._compute_info()
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 359, in _compute_info
+    info.update(self._get_system_info())
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 407, in _get_system_info
+    waiting_times = [self.sumo.vehicle.getWaitingTime(vehicle) for vehicle in vehicles]
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 407, in <listcomp>
+    waiting_times = [self.sumo.vehicle.getWaitingTime(vehicle) for vehicle in vehicles]
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\_vehicle.py", line 543, in getWaitingTime
+    return self._getUniversal(tc.VAR_WAITING_TIME, vehID)
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\domain.py", line 152, in _getUniversal
+    return _parse(self._retValFunc, varID, self._getCmd(varID, objectID, format, *values))
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\domain.py", line 154, in _getCmd
+    def _getCmd(self, varID, objID, format="", *values):
+KeyboardInterrupt

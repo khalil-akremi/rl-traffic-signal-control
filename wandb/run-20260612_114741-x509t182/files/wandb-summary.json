@@ -1,0 +1,1 @@
+{"avg_reward_50ep":-707.9861111111111,"best_reward":-659.1666666666658,"_timestamp":1.7812636521749125e+09,"episode":29,"entropy":0.6931457966566086,"_runtime":2389,"critic_loss":225.6739730834961,"episode_reward":-778.2500000000011,"_wandb":{"runtime":2389},"episode_steps":720,"actor_loss":2.3536193793916027e-07,"_step":29,"gpu_memory_mb":24.5830078125}

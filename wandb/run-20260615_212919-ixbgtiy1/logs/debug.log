@@ -1,0 +1,24 @@
+2026-06-15 21:29:19,241 INFO    MainThread:33372 [wandb_setup.py:_flush():81] Current SDK version is 0.27.2
+2026-06-15 21:29:19,241 INFO    MainThread:33372 [wandb_setup.py:_flush():81] Configure stats pid to 33372
+2026-06-15 21:29:19,241 INFO    MainThread:33372 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-06-15 21:29:19,241 INFO    MainThread:33372 [wandb_init.py:setup_run_log_directory():723] Logging user logs to C:\Users\user\traffic_marl\wandb\run-20260615_212919-ixbgtiy1\logs\debug.log
+2026-06-15 21:29:19,241 INFO    MainThread:33372 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to C:\Users\user\traffic_marl\wandb\run-20260615_212919-ixbgtiy1\logs\debug-internal.log
+2026-06-15 21:29:19,243 INFO    MainThread:33372 [wandb_init.py:init():766] calling init triggers
+2026-06-15 21:29:19,243 INFO    MainThread:33372 [wandb_init.py:init():771] wandb.init called with sweep_config: {}
+config: {'environment': {'delta_time': 5, 'min_green': 5, 'net_file': 'network/grid.net.xml', 'num_seconds': 3600, 'route_file': 'network/grid.rou.xml', 'use_gui': False, 'yellow_time': 2}, 'mappo': {'batch_size': 64, 'clip_epsilon': 0.17705992987476787, 'entropy_coef_start': 0.1, 'entropy_coef_end': 0.005, 'entropy_anneal_episodes': 300, 'gamma': 0.99, 'lr_actor': 0.00025493856038648864, 'lr_critic': 5e-06, 'update_epochs': 3, 'value_coef': 0.25}, 'model': {'embedding_dim': 128, 'gat_heads': 8, 'gat_hidden_dim': 64, 'gat_layers': 2, 'id_embed_dim': 8, 'num_agents': 12}, 'training': {'episodes': 500, 'seed': 42, 'update_freq': 512}, '_wandb': {}}
+2026-06-15 21:29:19,243 INFO    MainThread:33372 [wandb_init.py:init():814] starting backend
+2026-06-15 21:29:19,243 INFO    MainThread:33372 [wandb_init.py:init():829] sending inform_init request
+2026-06-15 21:29:20,473 INFO    MainThread:33372 [wandb_init.py:init():834] backend started and connected
+2026-06-15 21:29:20,475 INFO    MainThread:33372 [wandb_init.py:init():904] updated telemetry
+2026-06-15 21:29:20,539 INFO    MainThread:33372 [wandb_init.py:init():927] communicating run to backend with 90.0 second timeout
+2026-06-15 21:29:21,182 INFO    MainThread:33372 [wandb_init.py:init():972] starting run threads in backend
+2026-06-15 21:29:21,459 INFO    MainThread:33372 [wandb_run.py:_console_start():2523] atexit reg
+2026-06-15 21:29:21,459 INFO    MainThread:33372 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-06-15 21:29:21,459 INFO    MainThread:33372 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-06-15 21:29:21,460 INFO    MainThread:33372 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-06-15 21:29:21,465 INFO    MainThread:33372 [wandb_init.py:init():1010] run started, returning control to user process
+2026-06-16 10:20:15,731 INFO    MainThread:33372 [wandb_run.py:_finish():2285] finishing run khalilakremi0-essai/traffic-marl-gnn/ixbgtiy1
+2026-06-16 10:20:15,732 INFO    MainThread:33372 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-06-16 10:20:15,733 INFO    MainThread:33372 [wandb_run.py:_restore():2472] restore
+2026-06-16 10:20:15,733 INFO    MainThread:33372 [wandb_run.py:_restore():2478] restore done
+2026-06-16 10:20:18,494 INFO    MainThread:33372 [wandb_run.py:_footer_sync_info():3891] logging synced files

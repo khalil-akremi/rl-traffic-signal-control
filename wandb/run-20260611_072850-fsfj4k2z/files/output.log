@@ -1,0 +1,87 @@
+
+==================================================
+Starting training
+Episodes: 281 → 500
+Agents: 12
+Obs size: 11
+Encoder params: 30,528
+Actor params:   12,546
+Critic params:  459,521
+==================================================
+
+Ep  290 | Reward:   -291.58 | Avg(50):   -316.36 | Steps:  720 | Loss A: -0.0013 | Loss C: 198.8474 | GPU: 26MB
+Ep  300 | Reward:   -299.67 | Avg(50):   -303.42 | Steps:  720 | Loss A: -0.0004 | Loss C: 173.6457 | GPU: 26MB
+Ep  310 | Reward:   -290.50 | Avg(50):   -299.78 | Steps:  720 | Loss A: -0.0005 | Loss C: 172.7856 | GPU: 26MB
+Ep  320 | Reward:   -288.33 | Avg(50):   -298.43 | Steps:  720 | Loss A: -0.0009 | Loss C: 177.4774 | GPU: 26MB
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\user\traffic_marl\training\train.py", line 354, in <module>
+    train()
+  File "C:\Users\user\traffic_marl\training\train.py", line 201, in train
+    losses = _update_models(
+  File "C:\Users\user\traffic_marl\training\train.py", line 315, in _update_models
+    losses = mappo.update(
+  File "C:\Users\user\traffic_marl\models\mappo.py", line 335, in update
+    values_pred = torch.stack([
+  File "C:\Users\user\traffic_marl\models\mappo.py", line 336, in <listcomp>
+    self.critic(old_embeddings[t]).squeeze()
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\user\traffic_marl\models\mappo.py", line 102, in forward
+    value = self.network(global_state)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1918, in __getattr__
+    def __getattr__(self, name: str) -> Any:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\user\traffic_marl\training\train.py", line 354, in <module>
+    train()
+  File "C:\Users\user\traffic_marl\training\train.py", line 201, in train
+    losses = _update_models(
+  File "C:\Users\user\traffic_marl\training\train.py", line 315, in _update_models
+    losses = mappo.update(
+  File "C:\Users\user\traffic_marl\models\mappo.py", line 335, in update
+    values_pred = torch.stack([
+  File "C:\Users\user\traffic_marl\models\mappo.py", line 336, in <listcomp>
+    self.critic(old_embeddings[t]).squeeze()
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\user\traffic_marl\models\mappo.py", line 102, in forward
+    value = self.network(global_state)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\nn\modules\module.py", line 1918, in __getattr__
+    def __getattr__(self, name: str) -> Any:
+KeyboardInterrupt

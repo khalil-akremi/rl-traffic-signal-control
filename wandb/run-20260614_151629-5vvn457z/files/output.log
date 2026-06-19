@@ -1,0 +1,108 @@
+
+==================================================
+Starting training
+Episodes: 0 → 500
+Agents: 12
+Update frequency: 256 steps
+==================================================
+
+Ep    0 | Reward:   -118.99 | Avg(50):   -118.99 | Loss A:  0.0000 | Loss C:  3.5125 | Entropy: 0.6931 | GPU: 24MB
+Ep   10 | Reward:   -125.48 | Avg(50):   -321.39 | Loss A: -0.0000 | Loss C: 11.3991 | Entropy: 0.6931 | GPU: 24MB
+  → New best model saved! Avg reward: -305.78
+  → New best model saved! Avg reward: -291.58
+  → New best model saved! Avg reward: -279.50
+  → New best model saved! Avg reward: -268.90
+  → New best model saved! Avg reward: -259.94
+  → New best model saved! Avg reward: -252.14
+  → New best model saved! Avg reward: -244.50
+  → New best model saved! Avg reward: -238.46
+  → New best model saved! Avg reward: -232.82
+Ep   20 | Reward:   -125.28 | Avg(50):   -227.70 | Loss A:  0.0000 | Loss C: 11.9354 | Entropy: 0.6931 | GPU: 24MB
+  → New best model saved! Avg reward: -227.70
+  → New best model saved! Avg reward: -222.81
+  → New best model saved! Avg reward: -218.88
+  → New best model saved! Avg reward: -214.92
+  → New best model saved! Avg reward: -211.32
+  → New best model saved! Avg reward: -208.35
+  → New best model saved! Avg reward: -205.20
+  → New best model saved! Avg reward: -202.95
+  → New best model saved! Avg reward: -200.18
+  → New best model saved! Avg reward: -197.55
+Ep   30 | Reward:   -127.28 | Avg(50):   -195.29 | Loss A:  0.0000 | Loss C: 10.8198 | Entropy: 0.6931 | GPU: 24MB
+  → New best model saved! Avg reward: -195.29
+  → New best model saved! Avg reward: -193.13
+  → New best model saved! Avg reward: -191.43
+  → New best model saved! Avg reward: -189.89
+  → New best model saved! Avg reward: -188.03
+  → New best model saved! Avg reward: -185.91
+  → New best model saved! Avg reward: -184.11
+  → New best model saved! Avg reward: -182.72
+  → New best model saved! Avg reward: -181.03
+  → New best model saved! Avg reward: -179.58
+Ep   40 | Reward:   -122.53 | Avg(50):   -178.19 | Loss A: -0.0001 | Loss C:  9.7245 | Entropy: 0.6928 | GPU: 24MB
+  → New best model saved! Avg reward: -178.19
+  → New best model saved! Avg reward: -176.75
+  → New best model saved! Avg reward: -175.46
+  → New best model saved! Avg reward: -174.54
+  → New best model saved! Avg reward: -173.48
+  → New best model saved! Avg reward: -172.29
+  → New best model saved! Avg reward: -171.29
+Ep   50 | Reward:   -127.75 | Avg(50):   -177.84 | Loss A: -0.0000 | Loss C: 11.0247 | Entropy: 0.6812 | GPU: 24MB
+Ep   60 | Reward:   -117.56 | Avg(50):   -202.68 | Loss A: -0.0002 | Loss C:  9.7572 | Entropy: 0.6923 | GPU: 24MB
+Ep   70 | Reward:   -112.26 | Avg(50):   -251.09 | Loss A: -0.0004 | Loss C:  7.1318 | Entropy: 0.6303 | GPU: 24MB
+Ep   80 | Reward:   -100.17 | Avg(50):   -311.18 | Loss A: -0.0001 | Loss C:  9.2891 | Entropy: 0.6833 | GPU: 24MB
+Ep   90 | Reward:    -93.79 | Avg(50):   -365.53 | Loss A: -0.0005 | Loss C:  7.2871 | Entropy: 0.5649 | GPU: 24MB
+Ep  100 | Reward:    -92.89 | Avg(50):   -401.33 | Loss A: -0.0001 | Loss C:  7.2938 | Entropy: 0.5246 | GPU: 24MB
+Ep  110 | Reward:   -109.63 | Avg(50):   -339.70 | Loss A: -0.0007 | Loss C:  5.9629 | Entropy: 0.5990 | GPU: 24MB
+Ep  120 | Reward:    -93.93 | Avg(50):   -285.48 | Loss A: -0.0015 | Loss C:  5.6537 | Entropy: 0.5321 | GPU: 24MB
+Ep  130 | Reward:    -81.23 | Avg(50):   -217.97 | Loss A: -0.0003 | Loss C:  4.0927 | Entropy: 0.4018 | GPU: 24MB
+Ep  140 | Reward:    -96.31 | Avg(50):   -172.04 | Loss A: -0.0002 | Loss C:  5.3474 | Entropy: 0.5560 | GPU: 24MB
+  → New best model saved! Avg reward: -171.11
+  → New best model saved! Avg reward: -170.94
+  → New best model saved! Avg reward: -119.97
+  → New best model saved! Avg reward: -119.83
+Ep  150 | Reward:    -88.48 | Avg(50):   -119.74 | Loss A: -0.0008 | Loss C:  5.1092 | Entropy: 0.5784 | GPU: 24MB
+  → New best model saved! Avg reward: -119.74
+Ep  160 | Reward:    -87.75 | Avg(50):   -215.74 | Loss A: -0.0014 | Loss C:  6.8486 | Entropy: 0.5405 | GPU: 24MB
+Ep  170 | Reward:    -73.12 | Avg(50):   -212.34 | Loss A: -0.0007 | Loss C:  3.2972 | Entropy: 0.2778 | GPU: 24MB
+Ep  180 | Reward:   -107.03 | Avg(50):   -209.46 | Loss A: -0.0009 | Loss C: 13.7940 | Entropy: 0.1831 | GPU: 24MB
+Ep  190 | Reward:    -69.44 | Avg(50):   -257.07 | Loss A: -0.0008 | Loss C:  4.0776 | Entropy: 0.2235 | GPU: 24MB
+Ep  200 | Reward:    -79.55 | Avg(50):   -349.79 | Loss A: -0.0001 | Loss C:  4.5404 | Entropy: 0.4393 | GPU: 24MB
+Ep  210 | Reward:    -68.24 | Avg(50):   -244.84 | Loss A: -0.0003 | Loss C:  3.1547 | Entropy: 0.2270 | GPU: 24MB
+Ep  220 | Reward:    -60.23 | Avg(50):   -247.95 | Loss A: -0.0001 | Loss C:  3.4115 | Entropy: 0.1049 | GPU: 24MB
+Ep  230 | Reward:    -59.53 | Avg(50):   -274.97 | Loss A: -0.0001 | Loss C:  2.7646 | Entropy: 0.0932 | GPU: 24MB
+Ep  240 | Reward:    -50.99 | Avg(50):   -249.00 | Loss A: -0.0000 | Loss C:  1.4980 | Entropy: 0.0064 | GPU: 24MB
+Ep  250 | Reward:    -52.16 | Avg(50):   -164.17 | Loss A:  0.0000 | Loss C:  1.6803 | Entropy: 0.0044 | GPU: 24MB
+Ep  260 | Reward:    -54.94 | Avg(50):   -184.73 | Loss A: -0.0001 | Loss C:  1.8600 | Entropy: 0.0489 | GPU: 24MB
+Ep  270 | Reward:    -64.36 | Avg(50):   -200.69 | Loss A: -0.0005 | Loss C:  2.2834 | Entropy: 0.1381 | GPU: 24MB
+Ep  280 | Reward:    -52.38 | Avg(50):   -169.65 | Loss A: -0.0005 | Loss C:  1.9104 | Entropy: 0.0423 | GPU: 24MB
+Ep  290 | Reward:    -53.73 | Avg(50):   -125.45 | Loss A:  0.0000 | Loss C:  1.6281 | Entropy: 0.0073 | GPU: 24MB
+  → New best model saved! Avg reward: -115.87
+  → New best model saved! Avg reward: -115.79
+  → New best model saved! Avg reward: -115.75
+  → New best model saved! Avg reward: -110.95
+  → New best model saved! Avg reward: -110.82
+Ep  300 | Reward:    -51.78 | Avg(50):   -110.82 | Loss A: -0.0001 | Loss C:  1.4891 | Entropy: 0.0068 | GPU: 24MB
+  → New best model saved! Avg reward: -110.82
+  → New best model saved! Avg reward: -84.75
+Ep  310 | Reward:    -51.13 | Avg(50):   -166.41 | Loss A: -0.0000 | Loss C:  1.9231 | Entropy: 0.0171 | GPU: 24MB
+Ep  320 | Reward:    -52.20 | Avg(50):   -260.87 | Loss A: -0.0001 | Loss C:  2.4291 | Entropy: 0.0046 | GPU: 24MB
+Ep  330 | Reward:    -57.80 | Avg(50):   -296.50 | Loss A: -0.0006 | Loss C:  1.7658 | Entropy: 0.0425 | GPU: 24MB
+Ep  340 | Reward:    -55.56 | Avg(50):   -305.32 | Loss A:  0.0000 | Loss C:  1.7660 | Entropy: 0.0047 | GPU: 24MB
+Ep  350 | Reward:    -58.22 | Avg(50):   -314.40 | Loss A: -0.0004 | Loss C:  1.9868 | Entropy: 0.0455 | GPU: 24MB
+Ep  360 | Reward:  -1047.43 | Avg(50):   -255.45 | Loss A: -0.0001 | Loss C: 4056.7101 | Entropy: 0.0237 | GPU: 24MB
+Ep  370 | Reward:    -57.76 | Avg(50):   -206.68 | Loss A: -0.0004 | Loss C:  2.0399 | Entropy: 0.0036 | GPU: 24MB
+Ep  380 | Reward:    -55.07 | Avg(50):   -170.76 | Loss A:  0.0000 | Loss C:  2.0187 | Entropy: 0.0009 | GPU: 24MB
+Ep  390 | Reward:    -55.58 | Avg(50):   -162.06 | Loss A: -0.0000 | Loss C:  1.7849 | Entropy: 0.0025 | GPU: 24MB
+Ep  400 | Reward:    -58.53 | Avg(50):   -152.86 | Loss A:  0.0000 | Loss C:  1.7350 | Entropy: 0.0004 | GPU: 24MB
+Ep  410 | Reward:  -3451.94 | Avg(50):   -191.69 | Loss A: -0.0000 | Loss C: 14208.6077 | Entropy: 0.0053 | GPU: 24MB
+Ep  420 | Reward:    -53.12 | Avg(50):   -230.79 | Loss A:  0.0000 | Loss C:  1.7306 | Entropy: 0.0002 | GPU: 24MB
+Ep  430 | Reward:  -3604.27 | Avg(50):   -306.17 | Loss A: -0.0004 | Loss C: 14320.1398 | Entropy: 0.0757 | GPU: 24MB
+Ep  440 | Reward:    -53.66 | Avg(50):   -310.37 | Loss A: -0.0000 | Loss C:  1.9910 | Entropy: 0.0004 | GPU: 24MB
+Ep  450 | Reward:    -54.34 | Avg(50):   -310.82 | Loss A:  0.0000 | Loss C:  1.7172 | Entropy: 0.0004 | GPU: 24MB
+Ep  460 | Reward:    -56.33 | Avg(50):   -242.97 | Loss A:  0.0000 | Loss C:  1.7936 | Entropy: 0.0003 | GPU: 24MB
+Ep  470 | Reward:    -56.82 | Avg(50):   -134.24 | Loss A:  0.0000 | Loss C:  1.6663 | Entropy: 0.0009 | GPU: 24MB
+Ep  480 | Reward:    -53.29 | Avg(50):    -98.48 | Loss A:  0.0000 | Loss C:  2.5123 | Entropy: 0.0005 | GPU: 24MB
+Ep  490 | Reward:    -52.24 | Avg(50):   -152.36 | Loss A:  0.0000 | Loss C:  1.6046 | Entropy: 0.0011 | GPU: 24MB
+
+Training complete! Best avg reward: -84.75

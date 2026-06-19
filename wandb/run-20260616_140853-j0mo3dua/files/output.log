@@ -1,0 +1,612 @@
+
+==================================================
+Starting training
+Episodes: 0 → 500
+Agents: 12
+Update frequency: 512 steps
+Encoder params: 31,136
+Actor params:   12,546
+Critic params:  459,521
+==================================================
+
+WARNING: Could not access sumo connection for phase staggering
+Ep    0 | Reward:   -649.49 | Avg(50):   -649.49 | Loss A: -0.0000 | Loss C:  1.0745 | Entropy: 0.6930 | Entropy Coef: 0.1000 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   10 | Reward:   -122.09 | Avg(50):   -409.41 | Loss A: -0.0000 | Loss C:  1.0878 | Entropy: 0.6895 | Entropy Coef: 0.0978 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -385.46
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -364.78
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -347.59
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -332.08
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -318.75
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -306.70
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -296.64
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -293.31
+WARNING: Could not access sumo connection for phase staggering
+Ep   20 | Reward:   -556.67 | Avg(50):   -305.85 | Loss A: -0.0002 | Loss C:  0.9944 | Entropy: 0.6886 | Entropy Coef: 0.0955 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -288.99
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -281.97
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -275.74
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -269.66
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -263.68
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -258.43
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -253.57
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -248.88
+WARNING: Could not access sumo connection for phase staggering
+Ep   30 | Reward:   -103.71 | Avg(50):   -244.19 | Loss A: -0.0005 | Loss C:  0.9831 | Entropy: 0.6746 | Entropy Coef: 0.0932 | GPU: 24MB
+  → New best model saved! Avg reward: -244.19
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -239.83
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -235.64
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -231.73
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -227.96
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -224.37
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -221.15
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -218.07
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -215.01
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -212.17
+WARNING: Could not access sumo connection for phase staggering
+Ep   40 | Reward:    -97.02 | Avg(50):   -209.37 | Loss A: -0.0001 | Loss C:  1.0028 | Entropy: 0.6439 | Entropy Coef: 0.0910 | GPU: 24MB
+  → New best model saved! Avg reward: -209.37
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -206.65
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -204.07
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -201.61
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -199.20
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -196.97
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   50 | Reward:   -411.07 | Avg(50):   -195.96 | Loss A: -0.0000 | Loss C:  0.7813 | Entropy: 0.6554 | Entropy Coef: 0.0888 | GPU: 24MB
+  → New best model saved! Avg reward: -195.96
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -184.42
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -184.04
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -183.44
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -182.71
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   60 | Reward:   -101.32 | Avg(50):   -215.97 | Loss A: -0.0000 | Loss C:  0.9944 | Entropy: 0.6548 | Entropy Coef: 0.0865 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   70 | Reward:    -99.66 | Avg(50):   -199.66 | Loss A:  0.0000 | Loss C:  0.9913 | Entropy: 0.6445 | Entropy Coef: 0.0843 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   80 | Reward:    -95.54 | Avg(50):   -217.01 | Loss A: -0.0001 | Loss C:  1.0218 | Entropy: 0.6364 | Entropy Coef: 0.0820 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   90 | Reward:   -100.62 | Avg(50):   -322.38 | Loss A: -0.0002 | Loss C:  0.9439 | Entropy: 0.6540 | Entropy Coef: 0.0798 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  100 | Reward:    -91.94 | Avg(50):   -307.49 | Loss A:  0.0000 | Loss C:  0.9848 | Entropy: 0.6286 | Entropy Coef: 0.0775 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  110 | Reward:    -91.90 | Avg(50):   -298.42 | Loss A:  0.0002 | Loss C:  1.0200 | Entropy: 0.6189 | Entropy Coef: 0.0752 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  120 | Reward:    -94.63 | Avg(50):   -304.35 | Loss A:  0.0001 | Loss C:  0.8799 | Entropy: 0.6258 | Entropy Coef: 0.0730 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  130 | Reward:   -561.66 | Avg(50):   -306.22 | Loss A: -0.0002 | Loss C:  1.3312 | Entropy: 0.6399 | Entropy Coef: 0.0708 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  140 | Reward:    -94.86 | Avg(50):   -230.58 | Loss A:  0.0000 | Loss C:  0.9855 | Entropy: 0.5946 | Entropy Coef: 0.0685 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  150 | Reward:    -89.83 | Avg(50):   -226.79 | Loss A: -0.0000 | Loss C:  0.8593 | Entropy: 0.5819 | Entropy Coef: 0.0663 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -157.49
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -157.37
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -157.11
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -156.94
+WARNING: Could not access sumo connection for phase staggering
+Ep  160 | Reward:    -84.01 | Avg(50):   -156.78 | Loss A: -0.0001 | Loss C:  0.9786 | Entropy: 0.5784 | Entropy Coef: 0.0640 | GPU: 24MB
+  → New best model saved! Avg reward: -156.78
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  170 | Reward:    -92.47 | Avg(50):   -207.02 | Loss A: -0.0002 | Loss C:  0.9688 | Entropy: 0.5775 | Entropy Coef: 0.0617 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  180 | Reward:    -84.72 | Avg(50):   -209.58 | Loss A: -0.0000 | Loss C:  0.9357 | Entropy: 0.5771 | Entropy Coef: 0.0595 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  190 | Reward:  -2033.94 | Avg(50):   -216.35 | Loss A: -0.0003 | Loss C:  5.0189 | Entropy: 0.6251 | Entropy Coef: 0.0573 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  200 | Reward:    -88.55 | Avg(50):   -215.14 | Loss A: -0.0003 | Loss C:  0.9087 | Entropy: 0.5546 | Entropy Coef: 0.0550 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  210 | Reward:    -87.62 | Avg(50):   -237.23 | Loss A: -0.0003 | Loss C:  1.0324 | Entropy: 0.5502 | Entropy Coef: 0.0527 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  220 | Reward:    -88.70 | Avg(50):   -184.35 | Loss A:  0.0000 | Loss C:  0.8751 | Entropy: 0.5393 | Entropy Coef: 0.0505 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  230 | Reward:    -84.37 | Avg(50):   -158.79 | Loss A: -0.0005 | Loss C:  1.0309 | Entropy: 0.5351 | Entropy Coef: 0.0483 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  240 | Reward:    -85.32 | Avg(50):   -168.09 | Loss A: -0.0001 | Loss C:  1.5452 | Entropy: 0.5212 | Entropy Coef: 0.0460 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  250 | Reward:    -81.74 | Avg(50):   -167.88 | Loss A: -0.0002 | Loss C:  0.8773 | Entropy: 0.5188 | Entropy Coef: 0.0437 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -147.37
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -145.27
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  260 | Reward:    -90.58 | Avg(50):   -191.27 | Loss A: -0.0000 | Loss C:  0.9744 | Entropy: 0.5398 | Entropy Coef: 0.0415 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  270 | Reward:    -84.23 | Avg(50):   -182.89 | Loss A: -0.0002 | Loss C:  0.9509 | Entropy: 0.5387 | Entropy Coef: 0.0392 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  280 | Reward:    -80.15 | Avg(50):   -304.96 | Loss A: -0.0001 | Loss C:  1.0235 | Entropy: 0.4921 | Entropy Coef: 0.0370 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  290 | Reward:    -84.91 | Avg(50):   -281.11 | Loss A: -0.0001 | Loss C:  0.9943 | Entropy: 0.4702 | Entropy Coef: 0.0348 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  300 | Reward:    -82.73 | Avg(50):   -280.19 | Loss A: -0.0003 | Loss C:  0.9992 | Entropy: 0.4426 | Entropy Coef: 0.0325 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  310 | Reward:   -378.53 | Avg(50):   -238.86 | Loss A: -0.0008 | Loss C:  0.7983 | Entropy: 0.4678 | Entropy Coef: 0.0302 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  320 | Reward:    -83.98 | Avg(50):   -240.80 | Loss A: -0.0000 | Loss C:  0.8930 | Entropy: 0.4587 | Entropy Coef: 0.0280 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -115.83
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  330 | Reward:  -3389.43 | Avg(50):   -230.82 | Loss A: -0.0007 | Loss C:  2.7689 | Entropy: 0.5839 | Entropy Coef: 0.0257 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  340 | Reward:    -82.62 | Avg(50):   -266.50 | Loss A: -0.0018 | Loss C:  0.8567 | Entropy: 0.4436 | Entropy Coef: 0.0235 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  350 | Reward:    -75.63 | Avg(50):   -265.80 | Loss A: -0.0002 | Loss C:  0.9634 | Entropy: 0.4019 | Entropy Coef: 0.0212 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  360 | Reward:    -78.13 | Avg(50):   -281.46 | Loss A: -0.0002 | Loss C:  0.9118 | Entropy: 0.3639 | Entropy Coef: 0.0190 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  370 | Reward:    -68.69 | Avg(50):   -277.25 | Loss A: -0.0000 | Loss C:  0.9185 | Entropy: 0.3113 | Entropy Coef: 0.0167 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  380 | Reward:    -76.92 | Avg(50):   -160.27 | Loss A: -0.0001 | Loss C:  0.9552 | Entropy: 0.2753 | Entropy Coef: 0.0145 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -97.87
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -97.70
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -97.65
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  390 | Reward:    -76.26 | Avg(50):   -115.94 | Loss A: -0.0001 | Loss C:  1.0674 | Entropy: 0.2890 | Entropy Coef: 0.0122 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  400 | Reward:  -2022.76 | Avg(50):   -153.92 | Loss A: -0.0002 | Loss C:  2.3619 | Entropy: 0.3749 | Entropy Coef: 0.0100 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  410 | Reward:    -74.90 | Avg(50):   -199.63 | Loss A: -0.0002 | Loss C:  1.0298 | Entropy: 0.2863 | Entropy Coef: 0.0100 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  420 | Reward:    -67.70 | Avg(50):   -261.12 | Loss A: -0.0001 | Loss C:  1.0517 | Entropy: 0.2361 | Entropy Coef: 0.0100 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  430 | Reward:  -3605.56 | Avg(50):   -406.47 | Loss A: -0.0001 | Loss C:  1.0293 | Entropy: 0.3375 | Entropy Coef: 0.0100 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  440 | Reward:    -75.59 | Avg(50):   -387.26 | Loss A: -0.0001 | Loss C:  1.0840 | Entropy: 0.2447 | Entropy Coef: 0.0100 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  450 | Reward:    -72.74 | Avg(50):   -365.58 | Loss A: -0.0004 | Loss C:  1.0843 | Entropy: 0.2576 | Entropy Coef: 0.0100 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  460 | Reward:    -64.62 | Avg(50):   -303.85 | Loss A: -0.0005 | Loss C:  1.0159 | Entropy: 0.2155 | Entropy Coef: 0.0100 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  470 | Reward:    -67.83 | Avg(50):   -243.77 | Loss A: -0.0005 | Loss C:  1.1111 | Entropy: 0.1904 | Entropy Coef: 0.0100 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  480 | Reward:    -64.32 | Avg(50):    -97.36 | Loss A: -0.0001 | Loss C:  0.9770 | Entropy: 0.1941 | Entropy Coef: 0.0100 | GPU: 24MB
+  → New best model saved! Avg reward: -97.36
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep  490 | Reward:   -481.79 | Avg(50):   -138.98 | Loss A: -0.0008 | Loss C:  0.9607 | Entropy: 0.2086 | Entropy Coef: 0.0100 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+
+Training complete! Best avg reward: -97.36

@@ -1,0 +1,91 @@
+
+==================================================
+Starting training
+Episodes: 0 → 500
+Agents: 12
+Update frequency: 256 steps
+==================================================
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\user\traffic_marl\training\train.py", line 341, in <module>
+    train()
+  File "C:\Users\user\traffic_marl\training\train.py", line 182, in train
+    env.step(actions_dict)
+  File "C:\Users\user\traffic_marl\environment\traffic_env.py", line 92, in step
+    self._sumo_env.step(actions)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\conversions.py", line 191, in step
+    self.aec_env.step(actions[agent])
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\order_enforcing.py", line 81, in step
+    super().step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\base.py", line 116, in step
+    self.env.step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\assert_out_of_bounds.py", line 29, in step
+    super().step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\base.py", line 116, in step
+    self.env.step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 589, in step
+    self.compute_info()
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 541, in compute_info
+    infos = self.env._compute_info()
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 359, in _compute_info
+    info.update(self._get_system_info())
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 407, in _get_system_info
+    waiting_times = [self.sumo.vehicle.getWaitingTime(vehicle) for vehicle in vehicles]
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 407, in <listcomp>
+    waiting_times = [self.sumo.vehicle.getWaitingTime(vehicle) for vehicle in vehicles]
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\_vehicle.py", line 543, in getWaitingTime
+    return self._getUniversal(tc.VAR_WAITING_TIME, vehID)
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\domain.py", line 152, in _getUniversal
+    return _parse(self._retValFunc, varID, self._getCmd(varID, objectID, format, *values))
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\domain.py", line 157, in _getCmd
+    r = self._connection._sendCmd(self._cmdGetID, varID, objID, format, *values)
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\connection.py", line 232, in _sendCmd
+    return self._sendExact()
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\connection.py", line 130, in _sendExact
+    self._socket.send(length + self._string)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\user\traffic_marl\training\train.py", line 341, in <module>
+    train()
+  File "C:\Users\user\traffic_marl\training\train.py", line 182, in train
+    env.step(actions_dict)
+  File "C:\Users\user\traffic_marl\environment\traffic_env.py", line 92, in step
+    self._sumo_env.step(actions)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\conversions.py", line 191, in step
+    self.aec_env.step(actions[agent])
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\order_enforcing.py", line 81, in step
+    super().step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\base.py", line 116, in step
+    self.env.step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\assert_out_of_bounds.py", line 29, in step
+    super().step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\pettingzoo\utils\wrappers\base.py", line 116, in step
+    self.env.step(action)
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 589, in step
+    self.compute_info()
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 541, in compute_info
+    infos = self.env._compute_info()
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 359, in _compute_info
+    info.update(self._get_system_info())
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 407, in _get_system_info
+    waiting_times = [self.sumo.vehicle.getWaitingTime(vehicle) for vehicle in vehicles]
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\sumo_rl\environment\env.py", line 407, in <listcomp>
+    waiting_times = [self.sumo.vehicle.getWaitingTime(vehicle) for vehicle in vehicles]
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\_vehicle.py", line 543, in getWaitingTime
+    return self._getUniversal(tc.VAR_WAITING_TIME, vehID)
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\domain.py", line 152, in _getUniversal
+    return _parse(self._retValFunc, varID, self._getCmd(varID, objectID, format, *values))
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\domain.py", line 157, in _getCmd
+    r = self._connection._sendCmd(self._cmdGetID, varID, objID, format, *values)
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\connection.py", line 232, in _sendCmd
+    return self._sendExact()
+  File "C:\Program Files (x86)\Eclipse\Sumo\tools\traci\connection.py", line 130, in _sendExact
+    self._socket.send(length + self._string)
+KeyboardInterrupt

@@ -1,0 +1,88 @@
+
+==================================================
+Starting training
+Episodes: 0 → 500
+Agents: 12
+Update frequency: 512 steps
+Encoder params: 31,136
+Actor params:   12,546
+Critic params:  459,521
+==================================================
+
+WARNING: Could not access sumo connection for phase staggering
+Ep    0 | Reward:   -649.49 | Avg(50):   -649.49 | Loss A: -0.0000 | Loss C: 2157.7610 | Entropy: 0.6930 | Entropy Coef: 0.1000 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   10 | Reward:  -1916.68 | Avg(50):   -380.59 | Loss A: -0.0000 | Loss C: 9956.6481 | Entropy: 0.6921 | Entropy Coef: 0.0978 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -416.38
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -393.26
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -374.35
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -357.19
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -342.05
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -329.00
+WARNING: Could not access sumo connection for phase staggering
+  → New best model saved! Avg reward: -316.96
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Ep   20 | Reward:   -111.52 | Avg(50):   -435.46 | Loss A: -0.0002 | Loss C:  6.6123 | Entropy: 0.6870 | Entropy Coef: 0.0955 | GPU: 24MB
+WARNING: Could not access sumo connection for phase staggering
+WARNING: Could not access sumo connection for phase staggering
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\user\traffic_marl\training\train.py", line 341, in <module>
+    main()
+  File "C:\Users\user\traffic_marl\training\train.py", line 337, in main
+    train(config_path=args.config)
+  File "C:\Users\user\traffic_marl\training\train.py", line 197, in train
+    losses = _update_models(
+  File "C:\Users\user\traffic_marl\training\train.py", line 299, in _update_models
+    losses = mappo.update(
+  File "C:\Users\user\traffic_marl\models\mappo.py", line 284, in update
+    (self.value_coef * critic_loss).backward()
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\autograd\graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\user\traffic_marl\training\train.py", line 341, in <module>
+    main()
+  File "C:\Users\user\traffic_marl\training\train.py", line 337, in main
+    train(config_path=args.config)
+  File "C:\Users\user\traffic_marl\training\train.py", line 197, in train
+    losses = _update_models(
+  File "C:\Users\user\traffic_marl\training\train.py", line 299, in _update_models
+    losses = mappo.update(
+  File "C:\Users\user\traffic_marl\models\mappo.py", line 284, in update
+    (self.value_coef * critic_loss).backward()
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\user\anaconda3\envs\traffic_marl\lib\site-packages\torch\autograd\graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
